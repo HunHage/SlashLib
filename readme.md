@@ -6,6 +6,10 @@
 - Commands can specify what data they require before they are called (Guild, MessageChannel, GuildChannel, or Member)
 - A custom command listener can be used in place of the built-in one.
 
+SlashLib does not handle:
+- Guild Slash Commands
+- Slash Command Permissions (although an [example](https://github.com/HunHage/SlashLib/blob/master/src/test/java/net/exploitables/slashlib/examples/ExamplePermissionUsage.java) is provided on how you can implement them)
+
 # Getting Started
 Simple full-working examples are provided in the [test package](https://github.com/HunHage/SlashLib/tree/master/src/test/java/net/exploitables/slashlib).
 
