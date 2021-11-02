@@ -1,5 +1,6 @@
 # SlashLib: An Interaction Commands Framework for [Discord4J](https://github.com/Discord4J/Discord4J)
 - Supports `CHAT_INPUT`, `USER`, and `MESSAGE` commands.
+- Support commands in private message channels.
 - Simple setup, extend abstract classes to create the structure of your commands.
 - Command structure is validated locally for issues and clear feedback is provided.
 - Commands are checked against Discord and only created/modified/deleted if needed.
@@ -14,7 +15,6 @@ Some helper classes are included to:
 SlashLib does not handle:
 - Guild Slash Commands
 - Slash Command Permissions (although an [example](https://github.com/HunHage/SlashLib/blob/master/src/test/java/net/exploitables/slashlib/examples/ExamplePermissionUsage.java) is provided on how you can implement them)
-- Command execution in DMs, this is a limitation of the current permissions checking. You can use your own listener to work around this.
 
 # Getting Started
 Simple full-working examples are provided in the [test package](https://github.com/HunHage/SlashLib/tree/master/src/test/java/net/exploitables/slashlib).
