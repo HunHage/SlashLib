@@ -19,7 +19,7 @@ SlashLib does not handle:
 # Getting Started
 Simple full-working examples are provided in the [test package](https://github.com/HunHage/SlashLib/tree/master/src/test/java/net/exploitables/slashlib).
 
-To visualize the relationship between how Discord describes commands and how SlashLib abstracts them, here's an example of a valid command structure similar to [how Discord describes it](https://discord.com/developers/docs/interactions/slash-commands#nested-subcommands-and-groups): 
+To visualize the relationship between how Discord describes commands and how SlashLib abstracts them, here's an example of a valid command structure similar to [how Discord describes it](https://discord.com/developers/docs/interactions/application-commands#subcommands-and-subcommand-groups): 
 ```
 Command (ping)
 Command
