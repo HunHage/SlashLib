@@ -1,4 +1,4 @@
-# SlashLib: An Interaction Commands Framework for [Discord4J](https://github.com/Discord4J/Discord4J)
+# SlashLib: An Interaction Command Framework for [Discord4J](https://github.com/Discord4J/Discord4J)
 - Supports `CHAT_INPUT`, `USER`, and `MESSAGE` commands.
 - Support commands in private message channels.
 - Simple setup, extend abstract classes to create the structure of your commands.
