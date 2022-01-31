@@ -6,6 +6,7 @@
 - Commands are checked against Discord and only created/modified/deleted if needed.
 - Commands can specify what permissions they need the bot to have.
 - Commands can specify what data they require before they are called (Guild, MessageChannel, GuildChannel, etc)
+- Commands can specify if they are restricted to certain guilds instead of global (through a property listing their guild IDs)
 - A custom command listener can be used in place of the built-in one.
   
 Some helper classes are included to:
@@ -13,7 +14,6 @@ Some helper classes are included to:
 - [Properly create options for commands](https://github.com/HunHage/SlashLib/blob/master/src/main/java/net/exploitables/slashlib/utility/OptionBuilder.java).
 
 SlashLib does not handle:
-- Guild Slash Commands
 - Slash Command Permissions (although an [example](https://github.com/HunHage/SlashLib/blob/master/src/test/java/net/exploitables/slashlib/examples/ExamplePermissionUsage.java) is provided on how you can implement them)
 
 # Getting Started
