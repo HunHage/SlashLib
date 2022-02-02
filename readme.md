@@ -6,7 +6,7 @@
 - Commands are checked against Discord and only created/modified/deleted if needed.
 - Commands can specify what permissions they need the bot to have.
 - Commands can specify what data they require before they are called (Guild, MessageChannel, GuildChannel, etc)
-- Commands can specify if they are restricted to certain guilds instead of global (through a property listing their guild IDs)
+- Commands can specify if they are restricted to certain guilds instead of global (see the [example](https://github.com/HunHage/SlashLib/blob/master/src/test/java/net/exploitables/slashlib/commands/GuildOnlyCommand.java))
 - A custom command listener can be used in place of the built-in one.
   
 Some helper classes are included to:
