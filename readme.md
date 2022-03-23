@@ -17,8 +17,9 @@ SlashLib does not handle:
 - Discord Interaction Permissions, but there is no conflict if they are used.
 
 # Getting Started
-Simple full-working examples are provided in the [test package](https://github.com/HunHage/SlashLib/tree/master/src/test/java/net/exploitables/slashlib).
+SlashLib is not on Maven Central or available remotely, you will have to install it locally according to your build system.
 <br />
+Simple full-working examples are provided in the [test package](https://github.com/HunHage/SlashLib/tree/master/src/test/java/net/exploitables/slashlib).
 - `basic`: Use most features offered by SlashLib.
 - `context`: Extend context classes to add your custom classes to the command lifecycle.
 - `guild`: Create/Remove guild commands.
